@@ -18,7 +18,7 @@ async def Hola(ctx):
 async def Ambiente(ctx,):
     await ctx.send("El ambiente es el conjunto de elementos naturales y artificiales que rodean a los seres vivos y que influyen en su desarrollo y supervivencia. Estos elementos incluyen el aire, el agua, el suelo, la flora y la fauna, así como también los edificios, las carreteras y otras construcciones humanas.")
 @bot.command()
-async def mem(ctx):
+async def Arbol(ctx):
     with open('plantar/plantar.jpg', 'rb') as f:
         picture = discord.File(f)
     await ctx.send(file=picture)
